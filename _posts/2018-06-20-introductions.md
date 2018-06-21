@@ -3,7 +3,7 @@ layout: post
 title: Gsoc 2018 with Sciruby Foundation 
 ---
 
-# Hi Readers,  
+# Hi Readers, 
 
 I have been selected as a student developer for Google Summer of Code at Scientific Ruby foundation. 
 Me and Pranav Garg have been selected for the same project and we will be working on developing a potentially high impact library to do plotting in ruby. Our work will be inspired by MatplotLib. We will be mentored by Sameer Deshmukh, Pjotr Prins and John Woods from Sciruby. Now first let me answer the fundamental question.
