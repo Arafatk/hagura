@@ -1,3 +1,5 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+_posts/2016*
+_posts/2017*
