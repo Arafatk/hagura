@@ -12,7 +12,7 @@ so now I will focus more on the implementation aspect of things.
 But before we start, I want to take you through a thought process. Imagine for a moment
 that you have to draw a beautiful painting.
 
-![webjeda hagura jekyll theme](https://github.com/Arafatk/hagura/blob/gh-pages/images/4.jpeg)
+![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/4.jpeg)
 
 *What do you need to draw a painting?*
 * Paint brush and Paint  
@@ -22,7 +22,7 @@ that you have to draw a beautiful painting.
 The library works in similar thought process too you give it an empty paper
 called figure canvas and then you draw upon the figure canvas using plotting
 features. For all drawing and plotting purposes in this library we use RMagick.
-![webjeda hagura jekyll theme](https://github.com/Arafatk/hagura/blob/gh-pages/images/5.gif)
+![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/5.gif)
 
 So where are our paint brushes and paints?
 * draw->rectangle
