@@ -4,7 +4,7 @@ title: Developing the Artist base class part-2
 ---
 
 Currently the directory structure looks like this
-![webjeda hagura dark jekyll theme](http://webjeda.com/hagura/images/hagura-dark-jekyll-theme.png)
+![webjeda hagura jekyll theme](https://github.com/Arafatk/hagura/blob/gh-pages/images/3.png)
 
 So we have a base folder directory where I have defined the artist class and the
 goal with this is to design a super structured artist layer with a base class
@@ -20,4 +20,6 @@ What exactly are the basic design features that I speak of?
 This helps draw the basic outline for a graph thereby giving you a bare bones
 plot with no data and just labels, axis, titles. On top of this we can build
 anything we want. So basically the idea is to automate the construction
-of a base graph as a plot with these basics.  
+of a base graph as a plot with these basic functions.   
+
+![webjeda hagura jekyll theme](https://github.com/Arafatk/hagura/blob/gh-pages/images/1.png)
