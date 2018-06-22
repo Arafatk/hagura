@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developing the Artist base class part-1
+title: Developing the Artist base class part-1 
 ---
 
 # Hi Readers, 
