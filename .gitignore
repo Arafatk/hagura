@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 _posts/2016*
 _posts/2017*
+.DS_Store
