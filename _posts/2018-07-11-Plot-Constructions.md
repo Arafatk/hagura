@@ -10,11 +10,11 @@ I want to introduce you to the ideas behind the construction of a plot
 But before we talk about the code let's take a step back and talk
 about paintings and art in general.  
 As an art aficionado, I have always loved different styles of art
-and while I can't comprehend the intellect and the effort that goes behind making
-beautiful paintings I love a few styles in particular like *Divisionism*.
+and while I find it hard to comprehend the intellect and the effort that goes behind making
+beautiful paintings, I do love a few styles in particular like *Divisionism*.
 
 
-![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/4.jpeg)
+![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/6.jpg)
 
 *Divisionism*, in painting, the practice of separating color into individual dots
 or strokes of pigment. It formed the technical basis for *Neo-Impressionism*.
@@ -23,10 +23,10 @@ Think of Rubyplot as a programming equivalent of Divisionism where we take a
 whole mathematical plot and divide it into small segments. Take for example
 this simple scatter plot.   
 
-![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/4.jpeg)
+![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/7.png)
 
 You can simply dissect it in a simple fashion by identifying all the different
-drawing elements in this image which are
+simplistic drawing elements in this image which are:
 * Axis
 * Axis Labels(The numbers 30, 40, 50 written on the left of y axis.)
 * Legends(The different data sets 1952, 2017.)

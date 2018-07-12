@@ -1,0 +1,58 @@
+digraph G{
+  label="Scatter Plot";
+  bgcolor=white;
+  0[label="Initialize"];
+  0->1;
+  0->8;
+
+    subgraph cluster_0 {
+    label="Initialize"
+     fontcolor="maroon"
+    color="yellow"
+    1[label="Set the default instance variables for geometry and data."];
+    47[label="Set Left, right, Top margins."]
+    48[label="set Default Font."]
+    49[label="set default Colors."];
+    1->47->48->49;
+
+    }
+    49->0;
+
+    8[label="Adding data to the empty plot."]
+        subgraph cluster_1 {
+
+        color="blue"
+        label="Data"
+         fontcolor="maroon"
+  9->10->11->12;
+  9[label="Adding Array for X Data"]
+  10[label="Adding Array for Y Data"]
+  11[label="Calculate (Max/Min) values for (X/Y) Axis "];
+  12[label="Normalize the data to fit inside the plot space constraints."]
+  }
+  8->9;
+  12 ->8;
+
+8->13;
+  13[label="Draw" ]
+
+      subgraph cluster_2 {
+
+label="Draw"
+ fontcolor="maroon"
+color="orange"
+  14[label="Draw circles one by one on the base image by using the normalized data."]
+[fillcolor = orange];
+  2[label="draw_legend"];
+  3[label="draw_line_markers"];
+  4[label="draw_title"];
+  5[label="draw_axis_labels"];
+  14->2->3->4->5;
+
+  }
+  13->14;
+  5->13;
+  13->15;
+
+  15[label="Write to a file."];
+}

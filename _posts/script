@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+dot -Tpng Matplotlib.dot > 9.png
