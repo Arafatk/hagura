@@ -24,12 +24,16 @@ digraph G{
         color="blue"
         label="Data"
          fontcolor="maroon"
-  9->10->11->12;
+  9->10->50->11;
+  11->12;
   9[label="Adding Array for X Data"]
   10[label="Adding Array for Y Data"]
+  50[label="Calculate spread"];
   11[label="Calculate (Max/Min) values for (X/Y) Axis "];
   12[label="Normalize the data to fit inside the plot space constraints."]
   }
+  50->51->12;
+  51[label="Setup Basic Graph measurments"];
   8->9;
   12 ->8;
 
@@ -47,12 +51,16 @@ color="orange"
   3[label="draw_line_markers"];
   4[label="draw_title"];
   5[label="draw_axis_labels"];
-  14->2->3->4->5;
+  14->51->2->3->4->5;
 
   }
   13->14;
   5->13;
   13->15;
 
+  0[color=yellow];
+  8[color=blue];
+  13[color=orange];
   15[label="Write to a file."];
+  15[color="maroon"];
 }

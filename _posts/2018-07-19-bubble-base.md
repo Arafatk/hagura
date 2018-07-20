@@ -47,3 +47,8 @@ plot.data(:peaches, [20, 30, -6, -3], [-1, 5, -27, -3], [13, 10, 20, 10])
 plot.set_colors_array(%w[white yellow])
 plot.write('spec/reference_images/bubble.png')
 ```
+
+**This code is implemented internally in the library as ->**
+
+
+![webjeda hagura jekyll theme](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/14.png)
