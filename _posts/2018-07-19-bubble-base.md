@@ -28,7 +28,7 @@ This idea can also be mapped to many other plotting tasks
 
 Now that we know **why** we make bubble plots lets move to the **"how"**.
 
-The whole bubble class code base is divided into 3 files
+The whole bubble class code base is divided into 3 files      
 ![webjeda](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/12.png)
 
 **init.rb** -> Initialization the bubble class
