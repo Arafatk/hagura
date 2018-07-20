@@ -1,5 +1,5 @@
 digraph G{
-  label="Scatter Plot";
+  label="Bubble Plot";
   bgcolor=white;
   0[label="Initialize"];
   0->1;
