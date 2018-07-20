@@ -19,7 +19,7 @@ through its size.*
 
 Practically, we can think of Bubble plot as a visualization that helps compare
 the intensity of datapoints in a 2d space. For example let's look at a very classic
-bubble plot
+bubble plot     
 
 ![webjeda](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/11.png)
 Here we have a 2-d space that shows a map of the united states and the diameter of
