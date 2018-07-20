@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The whole thought process behind Bubble Plot construction
+title: Thoughts on Bubble Plots...
 ---
 
 # Hi Readers,  
