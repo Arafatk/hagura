@@ -31,9 +31,9 @@ Now that we know **why** we make bubble plots lets move to the **"how"**.
 The whole bubble class code base is divided into 3 files      
 ![webjeda](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/12.png)
 
-**init.rb** -> Initialization the bubble class
-**draw.rb** -> Compilation of drawing functions
-**data.rb** -> Operations to get geometry information from the user data.
+**init.rb** -> Initialization the bubble class      
+**draw.rb** -> Compilation of drawing functions     
+**data.rb** -> Operations to get geometry information from the user data      
 
 Overall, I have made a simple bubble class that inherits from scatter plot because
 scatter plot and bubble plot are very similar at their core ideas.
