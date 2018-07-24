@@ -113,10 +113,11 @@ You can watch the evolution of a plot with it's data in these sequences of image
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/20.png)
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/21.png)
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/22.png)
-![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/23.png)
+![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/23.png)        
+
 
 It shows how the plot is "filled up" as the loops proceeds.  On the completion
-of the process we have a clean and beautiful bubble plot for our data.
+of the process we have a clean and beautiful bubble plot for our data.       
 
 *Thanks a lot for reading this story... I hope you learn something from this
 and make something cool of your own.*
