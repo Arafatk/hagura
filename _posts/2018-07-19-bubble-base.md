@@ -66,18 +66,15 @@ plot = Rubyplot::Bubble.new
 ```
 plot.data(:apples, [-1, 19, -4, -23], [-35, 21, 23, -4], [45, 10, 21, 9])
 plot.data(:peaches, [20, 30, -6, -3], [-1, 5, -27, -3], [13, 10, 20, 10])
-```      
-
+```        
 These arrays represent the X, Y co-ordinate and the proportional circle radius
-in the third array. At first there is the [spread calculation](https://github.com/Arafatk/magick-rubyplot/blob/master/lib/rubyplot/scripting/bubble/data.rb#L20) along all the arrays
-to get the maximum/minimum  values for X/Y Axis and this helps to figure
+in the third array. At first there is the [spread calculation](https://github.com/Arafatk/magick-rubyplot/blob/master/lib/rubyplot/scripting/bubble/data.rb#L20) along all the arrays to get the maximum/minimum  values for X/Y Axis and this helps to figure
 out how to best give enough space to the bubbles made in the plot.
 Notice that the spread calculation involves taking the maximums/minimum values
 of the the arrays after doing addition/subtraction between X/Y and the
 Z axis. This is because the spread the depends not only on the co-ordinates
 of an individual bubble but also on the size of the bubble itself. Taking
-this into account solves the problem.
-
+this into account solves the problem.        
 3.  ```plot.set_colors_array(%w[white yellow])```  
 This function just sets the colors for every single label of the graph. It's pretty
 cool but it's not absolutely necessary to use this function. When the user doesn't
