@@ -101,7 +101,7 @@ At this point our graph is basically empty and looks like this
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/15.png)  
 
 D. It is then that the normalized data is finally plotted one by one in the form
-of [circles on the plot]  (https://github.com/Arafatk/magick-rubyplot/blob/master/lib/rubyplot/scripting/bubble/draw.rb#L45)
+of [circles on the plot](https://github.com/Arafatk/magick-rubyplot/blob/master/lib/rubyplot/scripting/bubble/draw.rb#L45)
 the code is simple and easy to understand.
 
 You can watch the evolution of a plot with it's data in these sequences of images
