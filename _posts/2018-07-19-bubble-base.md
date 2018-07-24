@@ -23,10 +23,12 @@ bubble plot
 
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/11.png)
 Here we have a 2-d space that shows a map of the united states and the diameter of
-different circles helps us compare the population in different states.
-This idea can also be mapped to many other plotting tasks
+different circles helps us compare the population in different states. This
+clearly establishes the relevance of bubble plot as a plotting mechanism that helps
+compare values in a 2-d space. This idea can also be mapped to many other plotting tasks
 
-Now that we know **why** we make bubble plots lets move to the **"how"**.
+Now that we know **why** of making bubble plots lets move to the **how** by looking
+at Rubyplot codebase.
 
 The whole bubble class code base is divided into 3 files      
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/12.png)
@@ -56,6 +58,9 @@ plot.write('spec/reference_images/bubble.png')
 Now let's walk through the codebase  
 1. Initialization -> we start off initially with the setting up of
  a few default background colors, fonts etc can be set at the start.  
+```
+plot = Rubyplot::Bubble.new
+```
 
 2. Data Addition -> Data is added in set of three arrays
 ```
@@ -75,7 +80,7 @@ this into account solves the problem.
 
 3.  ```plot.set_colors_array(%w[white yellow])```  
 This function just sets the colors for every single label of the graph. It's pretty
-cool but it's not absolutely necessary to use this function when the user doesn't
+cool but it's not absolutely necessary to use this function. When the user doesn't
 set this function the colors are automatically selected randomly from the list
 of colors supported by RMAgick.
 
@@ -88,16 +93,16 @@ all the basic [geometry measurements](https://github.com/Arafatk/magick-rubyplot
 
 B. Then it sets up  the graph pixel boundaries from
 all the sides like right, top, left, bottom and it also sets the label heights
-boundaries and space offsets. So uptil this part we make the calculations that
+boundaries and space offsets. So until this part it makes the calculations that
 will eventually make the graph.
 
-C. The actual drawing process starts where it writes the legends
-After this the title and the axis labels.   
+C. The actual drawing process starts where it writes the legends, title and the axis labels.   
 At this point our graph is basically empty and looks like this
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/15.png)  
 
 D. It is then that the normalized data is finally plotted one by one in the form
-of [circles on the plot]  (https://github.com/Arafatk/magick-rubyplot/blob/master/lib/rubyplot/scripting/bubble/draw.rb#L45).
+of [circles on the plot]  (https://github.com/Arafatk/magick-rubyplot/blob/master/lib/rubyplot/scripting/bubble/draw.rb#L45)
+the code is simple and easy to understand.
 
 You can watch the evolution of a plot with it's data in these sequences of images
 
@@ -110,6 +115,8 @@ You can watch the evolution of a plot with it's data in these sequences of image
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/22.png)
 ![](https://raw.githubusercontent.com/Arafatk/hagura/gh-pages/images/23.png)
 
-So that's it folks.....
-Thanks a lot for reading this story... I hope you learn something from this
-and make something cool of your own.
+It shows how the plot is "filled up" as the loops proceeds.  On the completion
+of the process we have a clean and beautiful bubble plot for our data.
+
+*Thanks a lot for reading this story... I hope you learn something from this
+and make something cool of your own.*
